@@ -1,0 +1,196 @@
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-caption {
+    top: 0;
+}
+.nav-link {
+    color: white;
+    font-size: 14px;
+}
+.carousel-indicators {
+    justify-content: left;
+    margin-left: 19%;
+}
+.carousel-inner {
+    height: 685px;
+}
+h4 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: start;
+}
+.nav li a {
+    font-weight: 600;
+}
+.nav li a:hover {
+    color: #ffd83b;
+    transition: 0.5s;
+}
+.carousel-heading {
+    padding-top: 25%;
+}
+.carousel-text {
+    font-size:  22px;
+}
+.carousel-btn, .carousel-btn-2 {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    height: 40px;
+    width: 130px;
+    border-radius: 3px;
+}
+.carousel-btn {
+    background-color: #ffd83b;
+    box-shadow: 1px 2px #ffe681;
+}
+.carousel-btn-2 {
+    background-color: #523c77;
+}
+.active {
+    color: #ffd83b;
+}
+.h1 {
+    font-size: 3rem;
+}
+.first-section-text {
+    color: #523c77;
+    font-weight: lighter;
+    font-size: 31px;
+    letter-spacing: -1px;
+}
+.umbrella-icon {
+    font-size: 200px;
+}
+.circle {
+    background-color: #523c77;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+.icons {
+    font-size: 42px;
+    margin-top: 13px;
+}
+hr {
+    background: rgb(197, 197, 197); 
+    width: 60%; 
+    height: 2px;
+}
+.card {
+    border: none;
+    background-color: #E1E1E1;
+}
+.card-active {
+    background-color: #FFE26D;
+}
+.card > img {
+    height: 380px;
+    object-fit: cover;
+}
+.card-img, .card-img-top {
+    border-top-left-radius: calc(0rem - 1px);
+    border-top-right-radius: calc(0rem - 1px);
+}
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.card-btn {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 165px;
+    background-color: white;
+}
+.card-btn:hover {
+    background-color: #523c77;
+    color: white;
+}
+.border {
+    border-left: 3px solid #cacaca!important;
+    border-right: 3px solid #cacaca!important;
+}
+.card-section > a {
+    width: 120px;
+    font-size: 14px;
+    height: 38px;
+}
+.team-imgs {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.owl-nav {
+    position: absolute;
+    top: -17%;
+    transform: translate(-50%, -50%);
+    width: 115%;
+    background-color: #523c77;
+    margin-left: 263px;
+}
+.owl-nav .owl-prev {
+    position: absolute;
+    background-color: #523c77;
+    display: block;
+    left: 0;
+    width: 30px;
+    height: 83px;
+    color: white;
+    padding: 16px !important;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    display: block;
+    right: 0;
+    width: 30px;
+    height: 83px;
+    color: white;
+    padding: 16px !important;
+}
+
+.owl-nav button > span {
+    font-size: 35px;
+    font-weight: bolder;
+}
+.form-input {
+    width: 275px;
+    outline: none;
+    border: none;
+    height: 34px;
+    margin: 12px 0;
+}
+.form-textarea {
+    outline: none;
+    border: none;
+}
+.form-btn {
+    width: 280px;
+    background-color: #523c77;
+    color: white;
+    font-weight: 700;
+}
+.footer-icons {
+    color: black;
+    font-size: 22px;
+}
+.footer-icons:hover {
+    color: #523c77;
+}
